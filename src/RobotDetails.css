@@ -1,0 +1,109 @@
+/* #root{
+  margin: auto;
+} */
+
+.robotDetails {
+  max-width: 600px;
+  margin: 15px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.robotDetails img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.robotDetails h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.robotDetails p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.backLink {
+  margin: 5px;
+  color: #026272;
+  /* float: left; */
+  font-size: 45px;
+}
+
+.backLink:hover {
+  color: #09a3a09f;
+}
+
+.editbutton {
+  padding: 0px;
+  margin: 5px;
+  color: #05365c;
+  /* float: right; */
+  font-size: 33px;
+  border: 0px;
+}
+
+.editbutton:hover {
+  color: #05365cad;
+}
+
+
+
+/*   
+  .icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #000;
+  } */
+
+
+
+
+
+
+.deleteicon {
+  color: red;
+  border: 0px;
+  background: none;
+  font-size: 33px;
+  margin: 5px;
+  padding: 0px;
+}
+
+/* .deleteicon:hover{
+    
+  } */
+
+/* button:hover{
+    background: none;
+    border: 0px !important;
+  } */
+
+
+.updatebuttons {
+  display: flex;
+  gap: 5rem;
+}
+
+
+
+
+.boxclass {
+  /* padding: 10px; */
+  background: white;
+  border-radius: 20px;
+}
